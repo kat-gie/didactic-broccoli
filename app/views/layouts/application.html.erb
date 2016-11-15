@@ -27,12 +27,25 @@
       <%= link_to 'About', '#' %> 
     </div>
   </header>
-  
+
   <hr />
 
   <br class="clear" />
 
-<%= yield %>
+  <div class="container">
+    <%= yield %>
+  </div> 
+
+  <div class="footer">
+    <div class="container">
+      <div class="col-xs-6">
+      <%= link_to "Show me another quote!", "#", class: 'next-quote' %>
+      </div>
+      <div class="col-xs-6 footer-blurb">
+      App built by <a href="https://github.com/kat-gie">Katie Gielen</a>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
