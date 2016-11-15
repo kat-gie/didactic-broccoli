@@ -1,5 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap"; 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 .clear {
   clear:both;
@@ -36,9 +37,11 @@
 }
 
 .links a {
+  font-family: 'Open Sans', sans-serif;
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-weight: bold;
 }
 
 header {
@@ -47,4 +50,17 @@ header {
 
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold; 
+  font-size: 48px;
+  letter-spacing: -1.5px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; 
+  letter-spacing: -1.5px;
 }
